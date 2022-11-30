@@ -1,0 +1,19 @@
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+.left-side{
+    width: 50%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: rgb(137, 137, 137);
+    font-size: 25px;
+}
+
+.right-side{
+    width: 50%;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: rgb(195, 240, 245);
+    font-size: 25px;
+}
