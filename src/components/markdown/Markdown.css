@@ -1,19 +1,80 @@
 .main-div{
     display: flex;
+    flex-direction:column;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    height: auto;
+}
+.btn-nav{
+    display:  flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.yel-circle{
+    background-color: rgb(255, 204, 0);
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+.gre-circle{
+    background-color: rgb(187, 255, 0);
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+.red-circle{
+    background-color: rgb(225, 12, 12);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.up{
+    width: 95%;
+    height: 38px;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: rgb(64, 64, 64);
+    font-size: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.down{
+    width: 95%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: auto;
+    background-color: rgb(64, 64, 64);
+    font-size: 25px;
+    display: flex;
     flex-direction: row;
 }
+
 .left-side{
+    padding: 20px;
+    margin: 3px;
     width: 50%;
-    height: 100vh;
-    border: 1px solid black;
-    background-color: rgb(137, 137, 137);
+    height: 84.9vh;
+    background-color: rgb(39, 39, 39);
     font-size: 25px;
+    color: white;
 }
 
 .right-side{
+    padding: 20px;
     width: 50%;
-    height: 100vh;
-    border: 1px solid black;
-    background-color: rgb(195, 240, 245);
+    height: 84.9vh;
+    background-color: rgb(39, 39, 39);
     font-size: 25px;
-}
+    color: antiquewhite;
+} 
